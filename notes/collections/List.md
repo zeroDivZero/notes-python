@@ -36,3 +36,11 @@ ninth_world = universe[2][1]
 universe.append([1, 2, 3, 4, 5])
 universe[1].pop()
 ```
+
+## Convert to List
+
+Can covert any *iterable* to list with `list()`.
+
+```python
+list(reversed(range(10))) # [9, 8, 7, ..., 0]
+```
