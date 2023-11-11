@@ -21,17 +21,3 @@
 ```python
 3**4 # 81; exponential: 3 to 4th power
 ```
-
-## Conversion
-
-To float:
-
-```python
-float(3) # 3.0
-```
-
-To int:
-
-```python
-int(5.0) # 5
-```

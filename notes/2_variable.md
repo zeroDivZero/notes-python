@@ -5,7 +5,7 @@ Dynamic type. Type implicitly set when assigned.
 ## Common Types
 
 Boolean: `bool`
-Number: `int`, `float` (no double type)
+Number: `int`, `float` (no double)
 String: `str`
 Sequence: `list`, `tuple`
 Mapping: `dict`
