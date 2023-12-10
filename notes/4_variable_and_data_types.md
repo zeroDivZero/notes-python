@@ -1,4 +1,4 @@
-# VARIABLE
+# VARIABLE AND DATA TYPES
 
 Dynamic type. Type implicitly set when assigned.
 
