@@ -19,6 +19,8 @@ Binary: `bytes`
 is_game_over = False
 ```
 
+Value either `True` or `False`. Case-sensitive.
+
 ## Number
 
 ```python
@@ -29,11 +31,11 @@ percent_health = 0.5
 ## String
 
 ```python
-player_name = "Peter" # single quotes also acceptable
+player_name = "Peter"  # single quotes also acceptable
 ```
 
 ## Determining Type
 
 ```python
-print(type(player_name)) # <class 'str'>
+print(type(player_name))  # <class 'str'>
 ```
