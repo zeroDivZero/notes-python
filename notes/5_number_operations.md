@@ -11,7 +11,7 @@
 ```
 
 ```python
-8/5  # 1.6; fractions aren't lost when dividing integers
+8/5  # 1.6; fractions not lost when dividing integers
 ```
 
 ```python
