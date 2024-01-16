@@ -1,0 +1,5 @@
+# INSTALL
+
+```sh
+pip numpy
+```
