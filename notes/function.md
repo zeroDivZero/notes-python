@@ -30,6 +30,23 @@ def move():
   x_pos += 1
 ```
 
+## Variable Arguments
+
+```python
+def foo(*args):
+  print(f'{args[0]} {args[1]} {args[2]}')
+```
+
+If unpacking, number of params must match exactly:
+
+```python
+def foo(*args):
+  arg1, arg2 = args
+  print(f'{arg1} {arg2}')
+
+foo('Jane', 'Peter')  # must pass exactly 2 params
+```
+
 ## Documentation String
 
 Document function with docstring.

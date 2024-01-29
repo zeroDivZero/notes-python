@@ -15,5 +15,5 @@
 ```python
 from sys import argv
 
-script_name, file_name, another_option, last_arg = argv  ## unpack
+script_name, file_name, another_option, last_arg = argv  # unpack
 ```
