@@ -1,0 +1,3 @@
+# `truncate()`
+
+Empties file.

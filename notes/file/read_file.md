@@ -1,7 +1,7 @@
 # READ FILE
 
 ```python
-file = open(filename)
-content = file.read()
-file.close()
+f = open(filename)
+content = f.read()
+f.close()
 ```
