@@ -19,3 +19,9 @@ import random
 for i in range(5):
     print(random.randint(1, 10))
 ```
+
+## `choice`
+
+`random.choice(seq)`
+
+Returns random element from sequence. If `seq` empty, raises `IndexError`.
