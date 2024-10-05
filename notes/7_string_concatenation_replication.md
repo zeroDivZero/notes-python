@@ -3,7 +3,7 @@
 ## Concatenate
 
 ```python
-name = 'Jane' + last_name
+name = 'Jane ' + last_name
 ```
 
 ## Replicate

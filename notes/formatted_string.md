@@ -13,7 +13,7 @@ date_str = f'{day}th Day of {month}th Month of the Year {year}'
 
 ## `str.format()`
 
-Still use `{` and `}` to mark substituted variable, can provide detailed formatting directives.
+Still uses `{` and `}` to mark substituted variable, can provide detailed formatting directives.
 
 ```python
 yes_votes = 42_572_654

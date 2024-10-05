@@ -3,11 +3,11 @@
 ```python
 key_press = 'asdf'
 if key_press == 'r':
-    print('Move right')
+  print('Move right')
 elif key_press == 'l':
-    print('Move left')
+  print('Move left')
 else:
-    print('Invalid key')
+  print('Invalid key')
 ```
 
 `elif` and `else` optional.

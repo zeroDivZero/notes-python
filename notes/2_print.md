@@ -1,7 +1,7 @@
 # `print()`
 
 ```python
-print("Hello, world!")
+print('Hello, world!')
 ```
 
 ## `end`

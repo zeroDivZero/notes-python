@@ -24,8 +24,8 @@ Value either `True` or `False`. Case-sensitive.
 ## Number
 
 ```python
-num_lives = 5
-percent_health = 0.5
+num_lives = 3
+percent_health = 0.75
 ```
 
 ## String

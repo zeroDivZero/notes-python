@@ -20,7 +20,7 @@ Order of arguments doesn't matter with named arguments, but all arguments to rig
 approximate_size(a_kilobyte_is_1024_bytes=False, size=4000)
 ```
 
-If function needs to update global, be sure to declare it:
+If function needs to update global, declare it:
 
 ```python
 x_pos = 0
