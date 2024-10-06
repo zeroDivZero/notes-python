@@ -34,6 +34,10 @@ percent_health = 0.75
 player_name = "Peter"  # single quotes also acceptable
 ```
 
+## `None`
+
+Represents *nothing*, or *value-without-value*. Only value of `NoneType`. `null`, `nil`, `undefined` in other languages. Return value of functions that don't return anything.
+
 ## Determining Type
 
 ```python
