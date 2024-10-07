@@ -1,9 +1,9 @@
 # `dict`
 
 ```python
-record = {'name': 'Zed', 'age': 39, 'height': 6 * 12 + 2}
-print(record['name'])  # Zed
-print(record['height'])  # 74
+record = {'name': 'Randy', 'age': 39, 'height': 5 * 12 + 11}
+print(record['name'])  # Randy
+print(record['height'])  # 71
 
 record['city'] = 'SF'  # add value
 record[1] = 'Apple'  # key doesn't have to be string
