@@ -1,7 +1,7 @@
 # `dict`
 
 ```python
-record = {'name': 'Randy', 'age': 39, 'height': 5 * 12 + 11}
+record = {'name': 'Randy', 'age': 45, 'height': 5 * 12 + 11}
 print(record['name'])  # Randy
 print(record['height'])  # 71
 
