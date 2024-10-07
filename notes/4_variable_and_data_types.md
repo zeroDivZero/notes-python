@@ -36,7 +36,11 @@ player_name = "Peter"  # single quotes also acceptable
 
 ## `None`
 
-Represents *nothing*, or *value-without-value*. Only value of `NoneType`. `null`, `nil`, `undefined` in other languages. Return value of functions that don't return anything.
+Represents *nothing*, or *value-without-value*. Only value of `NoneType` (cannot create any other value of this type). Equivalent to `null`, `nil`, `undefined` in other languages. Return value of functions that don't return anything.
+
+### Boolean Context
+
+`None` is `False`. `not None` is `True`.
 
 ## Determining Type
 
