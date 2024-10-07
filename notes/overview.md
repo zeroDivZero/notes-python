@@ -9,3 +9,5 @@ Supports multiple programming paradigms, including structured (particularly proc
 Modular approach with small core, highly extensible.
 
 Strives for simpler, less-cluttered syntax and grammar. Embraces "there should only be one obvious way" philosophy.
+
+Everything (variable, function, class, module, etc.) is an object. Every entity has metadata called *attributes* and associated functionality called *methods*.
