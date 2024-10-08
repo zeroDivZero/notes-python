@@ -25,3 +25,17 @@ for i in range(5):
 `random.choice(seq)`
 
 Returns random element from sequence. If `seq` empty, raises `IndexError`.
+
+## `sample`
+
+`random.sample(seq, k)`
+
+Returns `k`-length list of unique items randomly chosen from `seq`.
+
+## `shuffle`
+
+`random.shuffle(x)`
+
+Shuffles sequence `x` in place.
+
+To shuffle immutable sequence and return new shuffled list, use `sample(x, k=len(x))` instead.
