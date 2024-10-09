@@ -1,7 +1,7 @@
 # SYNTAX
 
 ```python
-class GameCharacter:
+class GameCharacter(object):  # `(object)` optional in Python 3
 
   # constructor or initializer
   def __init__(self, name, health, pos):

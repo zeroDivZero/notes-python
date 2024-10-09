@@ -70,3 +70,15 @@ Optional but recommended. Must start from first line of function. Triple quotes 
 import humansize
 print(humansize.approximate_size.__doc__)
 ```
+
+## Call Stack
+
+How Python remembers where to return execution after each function call. When program calls a function, Python creates corresponding frame object on top of call stack. Frame object stores line number of original function call. Call stack isn't stored in any variable; Python handles it implicitly.
+
+When function call returns, Python removes frame object from top of stack and moves execution to line number stored in it. Frame objects are always added to and removed from top.
+
+## Local and Global Scope
+
+Parameters and variables assigned in function exist in that function's local scope. Variables outside functions exist in global scope. Variable is either local or global. Local variables are also stored in frame objects.
+
+Code in local scope can access global variables or local variables of another scope, but local code can access any global. Variables in different scopes can have same name, including local/global.
