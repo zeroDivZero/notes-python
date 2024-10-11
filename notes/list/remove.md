@@ -27,7 +27,7 @@ motorcycles.remove('suzuki')
 print(motorcycles)  # ['honda', 'yamaha', 'ducati']
 ```
 
-Removes only first occurrence.
+Removes only first occurrence. `ValueError` if value not found.
 
 ## Remove All - `clear`
 

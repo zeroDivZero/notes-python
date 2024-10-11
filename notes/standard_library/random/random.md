@@ -5,7 +5,7 @@
 `random.randrange(stop)`
 `random.randrange(start, stop[, step])`
 
-Returns randomly selected element from `range(start, stop, step)` with equal distribution. Note not inclusive of `stop`.
+Returns randomly selected integer from `range(start, stop, step)` with equal distribution. Note not inclusive of `stop`.
 
 ## `randint`
 
@@ -24,7 +24,7 @@ for i in range(5):
 
 `random.choice(seq)`
 
-Returns random element from sequence. If `seq` empty, raises `IndexError`.
+Returns random item from sequence. If `seq` empty, raises `IndexError`.
 
 ## `sample`
 
@@ -38,4 +38,4 @@ Returns `k`-length list of unique items randomly chosen from `seq`.
 
 Shuffles sequence `x` in place.
 
-To shuffle immutable sequence and return new shuffled list, use `sample(x, k=len(x))` instead.
+To shuffle immutable sequence and return new list, use `sample(x, k=len(x))` instead.

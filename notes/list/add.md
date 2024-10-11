@@ -1,12 +1,18 @@
 # ADD
 
-## Arithmetic
+## Concatenation
 
 ```python
 a_list = ['a']
 a_list += 'b'  # ['a', 'b']
 a_list += ['c', 'd']  # ['a', 'b', 'c', 'd']
 a_list += [['e', 'f'], 'g']  # ['a', 'b', 'c', 'd', ['e', 'f'], 'g']
+```
+
+## Replication
+
+```python
+a_list = ['X', 'Y', 'Z'] * 3  # ['X', 'Y', 'Z', 'X', 'Y', 'Z', 'X', 'Y', 'Z']
 ```
 
 ## `append`
@@ -31,9 +37,7 @@ list.extend(iterable)
 Extends list by appending all items from `iterable`. Equivalent to `a[len(a):] = iterable`.
 
 ```python
-a_list.extend(['four', 'Ω'])
->>> a_list
-['a', 2.0, 3, True, 'four', 'Ω']
+a_list.extend(['dee', 'Ω'])  # ['a', 'b', 'c', 'dee', 'Ω']
 ```
 
 ## `insert`
