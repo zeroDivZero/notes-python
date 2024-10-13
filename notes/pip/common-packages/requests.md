@@ -10,6 +10,17 @@ Flexible and offers more controls. E.g., can specify headers, handle cookies, ac
 
 Efficient and performant. Automatically handles connection pooling and reuse, optimizing network utilization.
 
+## Response Content as Text
+
+If response can be encoded as text.
+
+```python
+import requests
+
+response = requests.get('https://api.github.com/events')
+t = response.text
+```
+
 ## Download as File
 
 ```python
