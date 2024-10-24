@@ -20,11 +20,19 @@ print(name.upper())  # ADA LOVELACE
 print('hello, how are you?'.capitalize())  # Hello, how are you?
 ```
 
-## `islower()`, `isupper()`
+## `islower`, `isupper`
 
 If string has at least 1 letter, and all letters are lower or upper case.
 
 ```python
 'Hello'.islower()  # False
 'HELLO'.isupper()  # True
+```
+
+## `istitle`
+
+Returns `True` if string consists only of words beginning with uppercase followed by lowercases.
+
+```python
+'Ada Lovelace'.istitle()  # True
 ```
