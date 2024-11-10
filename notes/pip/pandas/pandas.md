@@ -8,7 +8,9 @@ Import convention:
 import pandas as pd
 ```
 
-Fundamental data structure `DataFrame`:
+## `DataFrame`
+
+Fundamental data structure:
 
 ```python
 ```
@@ -20,6 +22,8 @@ Printing `DataFrame` displays data in tabular format:
 ```python
 print(df)
 ```
+
+## `Series`
 
 To access single column (`Series`):
 
@@ -33,6 +37,8 @@ To create `Series`:
 ages = pd.Series([18, 35, 63], name='Age')
 ```
 
+## Functions
+
 Example function on `DataFrame` or `Series`:
 
 ```python
@@ -40,9 +46,31 @@ print(df['Age'].max())
 print(ages.max())
 ```
 
-Basic statistics of numerical data:
+## Rows
+
+To access top specified number of rows:
+
+```python
+df.head(8)
+```
+
+Similarly, use `tail()` to get bottom rows.
+
+## Column Data Types
+
+```python
+df.dtypes
+```
+
+## Numerical Data Statistics
 
 ```python
 print(df.describe())  # returns a DataFrame
 print(ages.describe())  # returns a Series
+```
+
+## Technical Info Summary
+
+```python
+df.info()
 ```
