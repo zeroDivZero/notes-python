@@ -13,6 +13,15 @@ import pandas as pd
 Fundamental data structure:
 
 ```python
+df = pd.DataFrame(
+    {
+        'Name': ['Alice', 'Bob', 'Charlie'],
+        'Age': [12, 15, 13],
+        'Sex': ['female', 'male', 'male'],
+        'Grade': ['B+', 'A', 'C'],
+        'Height': [148.5, 165.1, 147.4],
+    }
+)
 ```
 
 2D structure storing data in columns (like spreadsheet). When input is Python dictionary of lists, keys used as column headers and each list as one column.
