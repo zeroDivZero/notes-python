@@ -6,7 +6,7 @@
 uv add fastapi sqlalchemy redis
 ```
 
-Uses `pyproject.toml` file to manage dependencies. `uv.lock` lists exact versions, so project can be rebuilt anywhere.
+Uses `pyproject.toml` file to manage high-level dependencies. `uv.lock` lists all dependencies (including sub-dependencies) and their exact versions, so project is reproducible with same environment anywhere.
 
 ### Development Dependency
 
